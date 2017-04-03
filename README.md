@@ -12,7 +12,7 @@
 >md logs (only one time)
 >node server
 ```
-
+# see https://github.com/johntom/trails-example-aurelia for the frontend app
 This repo is an example of a Todo app backend with Trails2, Express and Passport JWT authentification using trailpack-realtime .
 
 Trailpack used by this example and is based on
