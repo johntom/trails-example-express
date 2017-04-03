@@ -2,9 +2,14 @@
 
 ## mongodb with realtime
 
-### feb-apr 2017
+### feb thru apr 3 2017
 
 ## login with uername=jrt or jaumard with  password adminadmin 
+
+
+# to run
+>md logs (only one time)
+>node server
 
 
 This repo is an example of a Todo app backend with Trails2, Express and Passport JWT authentification using trailpack-realtime .
