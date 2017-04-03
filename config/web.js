@@ -10,7 +10,7 @@
 module.exports = {
   express: require('express'),
 
-  cors: true,
+  cors: true,//false,
 
   /**
    * Middlewares to load (in order)
@@ -21,10 +21,9 @@ module.exports = {
     order: [
       'addMethods',
       'cookieParser',
-      'session',
       'passportInit',
-      'passportSession',
       'bodyParser',
+      'compression',
       'methodOverride',
       'www',
       'router',
@@ -57,7 +56,8 @@ module.exports = {
   /**
    * The port to bind the web server to
    */
-  port: process.env.PORT || 8080 //3000
+  host:'localhost',
+  port: process.env.PORT || 3000
 
   /**
    * Alternate method to add multiple template engine, for single view template use config.view.engine

@@ -10,7 +10,7 @@ exports.passport = require('./passport')
 exports.policies = require('./policies')
 exports.realtime = require('./realtime')
 exports.routes = require('./routes')
-// exports.session = require('./session')
+exports.session = require('./session')
 exports.passport = require('./passport')
 exports.web = require('./web')
 
