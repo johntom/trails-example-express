@@ -8,9 +8,10 @@
 
 
 # to run
+...
 >md logs (only one time)
 >node server
-
+```
 
 This repo is an example of a Todo app backend with Trails2, Express and Passport JWT authentification using trailpack-realtime .
 
