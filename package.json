@@ -1,0 +1,55 @@
+{
+  "name": "trails-example-express",
+  "version": "0.0.0",
+  "description": "A new Trails.js Application",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "jaumard",
+    "email": "jimmy.aumard@gmail.com",
+    "url": "https://github.com/trailsjs"
+  },
+  "main": "index.js",
+  "keywords": [
+    "trails",
+    "trailsjs"
+  ],
+  "dependencies": {
+      "express": "^4.14.1",
+    "lodash": "^4.13.1",
+     "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
+     "primus-emitter": "^3.1.1",
+    "primus-rooms": "^3.4.1",
+     "sails-mongo": "^0.12.2",
+    "trailpack-cron": "^2.0.0",
+     "trailpack-bootstrap": "^2.0.0",
+    "trailpack-express": "^2.0.2",
+    "trailpack-footprints": "^2.0.0",
+    "trailpack-passport": "^2.0.1",
+    "trailpack-realtime": "^2.0.0",
+    "trailpack-repl": "v2-latest",
+    "trailpack-router": "v2-latest",
+    "trailpack-waterline": "^2.0.0-rc2",
+    "trails": "v2-latest",
+  
+    "waterline-sqlite3": "^1.0.3",
+       "winston": "^2.3"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-trails": "^1.0.7",
+    "mocha": "^2.5.3",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "jaumard/trails-example-express",
+  "license": "MIT"
+}
